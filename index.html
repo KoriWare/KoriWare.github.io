@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KoriWare · Free shop calculators</title>
+<meta name="description" content="Free shop calculators for machinists. Every number sourced. Made for your phone, no account.">
+<meta property="og:title" content="KoriWare · Free shop calculators">
+<meta property="og:description" content="Drill &amp; Tap and Chip Thinning. Every number sourced. Free, made for your phone, no account.">
+<meta property="og:image" content="https://koriware.github.io/team-kori-drill-tap/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#07090c">
+<link rel="icon" href="cat-mark.svg" type="image/svg+xml">
+<style>
+*{margin:0;box-sizing:border-box}
+:root{--y:#f7c613;--t:#2dd4bf;--p:#c084fc;--cu:#e8894a;--tx:#eef1f3;--mu:#93a1a8}
+body{background:#07090c;color:var(--tx);font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;min-height:100vh;
+ background-image:radial-gradient(700px 420px at 85% 0%,rgba(247,198,19,.13),transparent 70%),radial-gradient(600px 420px at 0% 40%,rgba(45,212,191,.10),transparent 70%),radial-gradient(600px 420px at 100% 90%,rgba(168,85,247,.12),transparent 70%)}
+.wrap{max-width:1080px;margin:0 auto;padding:56px 22px 40px}
+header{text-align:center}
+.cat{width:88px;height:auto;filter:drop-shadow(0 0 18px rgba(247,198,19,.35))}
+h1{font-family:"Space Grotesk",Inter,system-ui,sans-serif;font-size:clamp(48px,9vw,84px);letter-spacing:-2px;line-height:1;margin-top:10px}
+h1 b{color:var(--y)}
+.lead{margin:16px auto 0;max-width:680px;font-size:clamp(17px,2.4vw,21px);color:#c9d2d6;line-height:1.45}
+.lead em{font-style:normal;color:var(--t);font-weight:700}
+.chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:22px}
+.chip{font-size:14px;font-weight:600;padding:7px 14px;border-radius:999px;border:1.5px solid rgba(247,198,19,.45);color:var(--y);background:rgba(247,198,19,.06)}
+.apps{display:grid;grid-template-columns:1fr;gap:22px;margin-top:44px}
+@media(min-width:820px){.apps{grid-template-columns:1fr 1fr}}
+.app{display:block;text-decoration:none;color:inherit;border-radius:20px;overflow:hidden;background:#0c1115;border:1.5px solid #1f2a31;transition:transform .15s,border-color .15s,box-shadow .15s}
+.app:hover,.app:focus-visible{transform:translateY(-3px)}
+.app.dt:hover,.app.dt:focus-visible{border-color:var(--t);box-shadow:0 16px 40px rgba(45,212,191,.15)}
+.app.ct:hover,.app.ct:focus-visible{border-color:var(--p);box-shadow:0 16px 40px rgba(168,85,247,.18)}
+.app img{display:block;width:100%;aspect-ratio:1200/630;object-fit:cover;border-bottom:1px solid #1f2a31}
+.body{padding:18px 20px 20px}
+.app h2{font-family:"Space Grotesk",Inter,sans-serif;font-size:26px;letter-spacing:-.5px}
+.dt h2 span{color:var(--cu)} .ct h2 span{color:var(--p)}
+.app p{color:var(--mu);font-size:15.5px;line-height:1.5;margin-top:6px}
+.go{display:inline-flex;align-items:center;gap:8px;margin-top:14px;font-weight:700;font-size:15px;padding:10px 16px;border-radius:12px}
+.dt .go{background:rgba(45,212,191,.12);color:var(--t)} .ct .go{background:rgba(168,85,247,.14);color:var(--p)}
+.why{display:grid;grid-template-columns:1fr;gap:12px;margin-top:40px}
+@media(min-width:720px){.why{grid-template-columns:repeat(3,1fr)}}
+.why div{background:#0b0f13;border:1px solid #1b252b;border-radius:14px;padding:16px 18px}
+.why b{display:block;font-size:16px} .why span{color:var(--mu);font-size:14.5px;line-height:1.45}
+footer{margin-top:48px;text-align:center;color:#6f7d85;font-size:13px}
+footer .cat{width:18px;vertical-align:-3px;margin-right:6px;filter:none}
+</style></head><body><div class="wrap">
+<header>
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="150 190 724 644" class="cat" aria-hidden="true"><path fill="#f7c613" d="
+  M512 352
+  L590 338 Q640 260 704 196 Q726 300 742 392
+  Q790 450 812 528 L868 548 L812 580 L848 622 L790 622
+  Q752 720 640 772 L512 828
+  L384 772 Q272 720 234 622 L176 622 L212 580 L156 548 L212 528
+  Q234 450 282 392 Q298 300 320 196 Q384 260 434 338 Z"/><g>
+  <path fill="#e01b1b" d="M548 566 Q600 520 668 506 Q660 552 628 578 Q588 596 556 590 Z"/>
+  <path fill="#e01b1b" d="M476 566 Q424 520 356 506 Q364 552 396 578 Q436 596 468 590 Z"/>
+ </g></svg>
+
+ <h1>Kori<b>Ware</b></h1>
+ <p class="lead">Free shop calculators for machinists. <em>Every number sourced.</em></p>
+ <div class="chips"><span class="chip">Free</span><span class="chip">Made for your phone</span><span class="chip">No account</span></div>
+</header>
+<main class="apps">
+ <a class="app dt" href="team-kori-drill-tap/">
+  <img src="team-kori-drill-tap/og-image.png" alt="Drill &amp; Tap Calculator preview" loading="lazy">
+  <div class="body"><h2>Drill <span>&amp;</span> Tap</h2>
+  <p>Tap drill and % thread for 195 sizes, class checks, speeds and feeds, Fanuc rigid tap and drill code, blind-hole depths, troubleshooting, and STI inserts.</p>
+  <span class="go">Open Drill &amp; Tap →</span></div></a>
+ <a class="app ct" href="team-kori-shop-calc/">
+  <img src="team-kori-shop-calc/og-image.png" alt="Chip Thinning Calculator preview" loading="lazy">
+  <div class="body"><h2>Chip <span>Thinning</span></h2>
+  <p>Radial and axial lead-angle chip thinning in inch or mm, plus SFM ↔ RPM and ipt ↔ IPM converters.</p>
+  <span class="go">Open Chip Thinning →</span></div></a>
+</main>
+<section class="why">
+ <div><b>Sourced</b><span>Numbers come from published charts and toolmaker guides, with links.</span></div>
+ <div><b>Phone-first</b><span>Add them to your Home Screen. Drill &amp; Tap even works with no signal.</span></div>
+ <div><b>Private</b><span>No account needed. Your settings stay on your device.</span></div>
+</section>
+<footer><svg xmlns="http://www.w3.org/2000/svg" viewBox="150 190 724 644" class="cat" aria-hidden="true"><path fill="#f7c613" d="
+  M512 352
+  L590 338 Q640 260 704 196 Q726 300 742 392
+  Q790 450 812 528 L868 548 L812 580 L848 622 L790 622
+  Q752 720 640 772 L512 828
+  L384 772 Q272 720 234 622 L176 622 L212 580 L156 548 L212 528
+  Q234 450 282 392 Q298 300 320 196 Q384 260 434 338 Z"/><g>
+  <path fill="#e01b1b" d="M548 566 Q600 520 668 506 Q660 552 628 578 Q588 596 556 590 Z"/>
+  <path fill="#e01b1b" d="M476 566 Q424 520 356 506 Q364 552 396 578 Q436 596 468 590 Z"/>
+ </g></svg>
+© 2026 KoriWare · All rights reserved</footer>
+</div></body></html>
