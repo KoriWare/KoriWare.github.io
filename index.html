@@ -110,7 +110,7 @@ footer .cat{width:18px;vertical-align:-3px;margin-right:6px;filter:none}
 <button type="button" id="fbGo">Open email to send</button>
 <small>This opens your own email app with the message filled in. Nothing is sent until you press Send there. Or write to <a href="mailto:kori@mail.grokbot.com" style="color:#8a979e">kori@mail.grokbot.com</a>.</small>
 </details>
-<script>document.getElementById('fbGo').onclick=function(){var a=fbApp.value,t=fbType.value,m=fbMsg.value,d=navigator.userAgent;location.href='mailto:kori@mail.grokbot.com?subject='+encodeURIComponent('KoriWare '+t+': '+a)+'&body='+encodeURIComponent(m+'\n\n---\nApp: '+a+'\nDevice: '+d)}</script>
+<script>document.getElementById('fbGo').onclick=function(){var a=fbApp.value,t=fbType.value,m=fbMsg.value,d=navigator.userAgent;location.href='mailto:kori@mail.grokbot.com?subject='+encodeURIComponent(a+' · '+t)+'&body='+encodeURIComponent(m+'\n\n---\nApp: '+a+'\nDevice: '+d)}</script>
 <footer><svg xmlns="http://www.w3.org/2000/svg" viewBox="150 190 724 644" class="cat" aria-hidden="true"><path fill="#f7c613" d="
   M512 352
   L590 338 Q640 260 704 196 Q726 300 742 392
