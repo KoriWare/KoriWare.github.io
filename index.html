@@ -39,6 +39,8 @@ h1 b{color:var(--y)}
 .dt .go{background:rgba(45,212,191,.12);color:var(--t)} .ct .go{background:rgba(168,85,247,.14);color:var(--p)}
 .app.cc:hover,.app.cc:focus-visible{border-color:#f7c613;box-shadow:0 16px 40px rgba(247,198,19,.15)}
 .cc h2 span{color:#f7c613} .cc .go{background:rgba(247,198,19,.12);color:#f7c613}
+.soon-tag{display:inline-block;margin-left:8px;font-size:12px;font-weight:700;padding:3px 8px;border-radius:999px;border:1.5px solid #888;color:#999;vertical-align:4px;letter-spacing:.03em}
+.app.soon{cursor:default}.app.soon:hover{transform:none;box-shadow:none}.app.soon img{opacity:.6}
 .beta{display:inline-block;margin-left:8px;font-size:12px;font-weight:700;padding:3px 8px;border-radius:999px;border:1.5px solid #f7c613;color:#f7c613;vertical-align:4px;letter-spacing:.03em}
 .app.bs:hover,.app.bs:focus-visible{border-color:#ff6a1a;box-shadow:0 16px 40px rgba(255,106,26,.18)}
 .bs h2 span{color:#ff8a3d} .bs .go{background:rgba(255,106,26,.13);color:#ff8a3d}
@@ -85,12 +87,12 @@ footer .cat{width:18px;vertical-align:-3px;margin-right:6px;filter:none}
 <details class="a2hs"><summary>📲 Add to Home Screen ›</summary><div class="box"><p><b>iPhone (Safari):</b> Tap the Share button (the square with an arrow pointing up), scroll down, tap "Add to Home Screen," then tap "Add."</p><p style="margin-top:8px"><b>Android (Chrome):</b> Tap the ⋮ menu at the top right, tap "Add to Home screen" or "Install app," then confirm.</p></div></details>
 </header>
 <main class="apps">
- <a class="app bs" href="https://koriware.github.io/blocksmith/">
+ <div class="app bs soon" aria-disabled="true">
   <img src="blocksmith-og.png" alt="BlockSmith preview" loading="lazy">
-  <div class="body"><h2>Block<span>Smith</span><span class="beta">BETA</span></h2>
+  <div class="body"><h2>Block<span>Smith</span><span class="soon-tag">COMING SOON</span></h2>
   <div class="mb"><span class="w">with</span> <span class="m">MACRO</span> <span class="b">B</span></div>
   <p>Build CNC macro programs from fill-in jobs, simulate them in 3D, and catch mistakes before you copy. Tool library, saved jobs, works offline.</p>
-  <span class="go">Open BlockSmith →</span></div></a>
+  </div></div>
  <a class="app dt" href="team-kori-drill-tap/">
   <img src="team-kori-drill-tap/og-image.png" alt="Drill &amp; Tap Calculator preview" loading="lazy">
   <div class="body"><h2>Drill <span>&amp;</span> Tap</h2>
